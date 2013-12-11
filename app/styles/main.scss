@@ -13,6 +13,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     display: block;
+    font-family: 'Lato', sans-serif;
     #wrapper{
         background: #fff;
         box-shadow: 0 0 10px #e7e9e8;
@@ -29,6 +30,7 @@ body{
                             list-style: none;
                             vertical-align: top;
                             &.service{
+                                margin: 24px;
                                 position: relative;
                                 width: 274px;
                             }
@@ -36,7 +38,7 @@ body{
                                 background: url(../images/hilight.png) no-repeat;
                                 color: #fff;
                                 height: 55px;
-                                font-size: 15px;
+                                font-size: 14px;
                                 font-weight: bold;
                                 line-height: 55px;
                                 padding-top: 10px;
@@ -45,6 +47,15 @@ body{
                                 text-transform: uppercase;
                                 top: 108px;
                                 width: 274px;
+                            }
+                            ul{
+                                padding-top: 15px;
+                                li{
+                                    color: #313131;
+                                    font-size: 12px;
+                                    line-height: 26px;
+                                    padding-left: 15px;
+                                }
                             }
                         }
                     }
