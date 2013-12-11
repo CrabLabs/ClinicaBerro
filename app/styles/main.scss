@@ -14,9 +14,31 @@ body{
     background-size: 100%;
     display: block;
     #wrapper{
-        background: #ffffff;
+        background: #fff;
         box-shadow: 0 0 10px #e7e9e8;
         padding: 0 15px;
         width: 1000px;
+        #main{
+            section{
+                &.services{
+                    ul{
+                        li{
+                            h5{
+                                background: url(../images/hilight.png) no-repeat;
+                                color: #fff;
+                                height: 55px;
+                                font-size: 15px;
+                                font-weight: bold;
+                                line-height: 55px;
+                                padding-top: 10px;
+                                text-align: center;
+                                text-transform: uppercase;
+                                width: 274px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
