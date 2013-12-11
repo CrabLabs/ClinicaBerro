@@ -26,10 +26,10 @@ body{
                 &.services{
                     ul{
                         li{
-                            display: inline-block;
                             list-style: none;
                             vertical-align: top;
                             &.service{
+                                display: inline-block;
                                 margin: 24px;
                                 position: relative;
                                 width: 274px;
@@ -55,6 +55,12 @@ body{
                                     font-size: 12px;
                                     line-height: 26px;
                                     padding-left: 15px;
+                                    &:before{
+                                        content: "·";
+                                        color: #EC008C;
+                                        font-weight: bold;
+                                        margin-right: 10px;
+                                    }
                                 }
                             }
                         }
