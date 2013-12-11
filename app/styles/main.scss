@@ -19,18 +19,29 @@ body{
         padding: 0 15px;
         width: 1000px;
         #main{
+            @import "video_contact";
+            
             section{
                 &.services{
                     ul{
                         li{
+                            display: inline-block;
+                            list-style: none;
+                            vertical-align: top;
+                            &.service{
+                                position: relative;
+                                width: 274px;
+                            }
                             h5{
                                 background: url(../images/hilight.png) no-repeat;
+                                bottom: 55px;
                                 color: #fff;
                                 height: 55px;
                                 font-size: 15px;
                                 font-weight: bold;
                                 line-height: 55px;
                                 padding-top: 10px;
+                                position: absolute;
                                 text-align: center;
                                 text-transform: uppercase;
                                 width: 274px;
