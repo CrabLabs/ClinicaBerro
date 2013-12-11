@@ -9,6 +9,7 @@
 		font-size: initial;
 		vertical-align: top;
         &.video{
+            position: relative;
             width: 600px;
         }
         &.contact{
@@ -26,10 +27,19 @@
     	line-height: 30px;
     }
     video{
-        background: url(../images/video.png) no-repeat;
         height: 300px;
         margin-top: 20px;
         width: 540px;
+    }
+    #play_button{
+        background: url("../images/play.png");
+        height: 55px;
+        pointer-events: none;
+        position: absolute;
+        left: 264px;
+        top: 161px;
+        width: 72px;
+        z-index: 99;
     }
 	form{
 		padding-top: 20px;
