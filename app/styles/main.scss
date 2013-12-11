@@ -7,8 +7,7 @@ html, body{
     height: 100%;
 }
 body{
-    background-color: #f7f7f8;
-    background-image: url(../images/bg.png);
+    background: #f7f7f8 url(../images/bg.png) fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -19,6 +18,18 @@ body{
         box-shadow: 0 0 10px #e7e9e8;
         padding: 0 15px;
         width: 1000px;
+        header{
+            .banner{
+                background: url(../images/header.png) no-repeat;
+                background-size: 100%;
+                height: 450px;
+                #logo{
+                    height: 201px;
+                    position: relative;
+                    width: 230px;
+                }
+            }
+        }
         #main{
             @import "video_contact";
             
