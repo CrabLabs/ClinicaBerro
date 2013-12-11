@@ -89,9 +89,23 @@ body{
                     top: 22px;
                 }
             }
+            .promo{
+                background: url(../images/banner.png) no-repeat;
+                background-size: 100%;
+                height: 155px;
+                .information{
+                    display: block;
+                    height: 155px;
+                    margin-left: 0;
+                    padding: 20px 45px;
+                    width: 300px;
+                }
+            }
         }
         #main{
             @import "video_contact";
+            @import "information";
+            @import "who-we-are";
             
             section{
                 &.services{
