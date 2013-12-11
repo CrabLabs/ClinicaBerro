@@ -1,0 +1,30 @@
+.who-we-are{
+	font-size: 0;
+	*{
+		box-sizing: border-box;
+	}
+	h2{
+		color: #ec008c;
+		display: block;
+		font-size: 36px;
+		font-style: italic;
+		font-family: 'Lato', Helvetica, Arial, sans-serif;
+		margin: 0 auto;
+		padding: 40px;
+		text-align: center;
+	}
+	div{
+		display: inline-block;
+		font-size: initial;
+		vertical-align: top;
+		width: 50%;
+		h4{
+			border-bottom: 1px solid #ec008c;
+			color: #ec008c;
+			display: block;
+			margin: 10px 0;
+			padding: 10px 0;
+			width: 150px;
+		}
+	}
+}
