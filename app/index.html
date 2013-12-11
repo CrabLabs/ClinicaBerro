@@ -67,15 +67,15 @@
                     <section class="contact">
                         <h3>Cada sonrisa, cada cuerpo es único</h3>
                         <span class="subtitle">Reciba asesoramiento personalizado.</span>
-                        <form>
-                            <input type="text" name="name" placeholder="Nombre" class="small">
-                            <input type="text" name="lastname" placeholder="Apellido" class="small">
-                            <input type="email" name="email" placeholder="Email">
+                        <form action="mail.php" method="POST">
+                            <input type="text" name="name" placeholder="Nombre" class="small" required>
+                            <input type="text" name="lastname" placeholder="Apellido" class="small" required>
+                            <input type="email" name="email" placeholder="Email" required>
                             <input type="text" name="phone" placeholder="Teléfono">
-                            <select name="subject">
+                            <select name="subject" required>
                                 <option value="0">Motivo de consulta</option>
                             </select>
-                            <textarea name="message" placeholder="Mensaje"></textarea>
+                            <textarea name="message" placeholder="Mensaje" required></textarea>
                             <input type="submit" value="Enviar">
                         </form>
                     </section>
