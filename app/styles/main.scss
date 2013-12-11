@@ -13,4 +13,10 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     display: block;
+    #wrapper{
+        background: #ffffff;
+        box-shadow: 0 0 10px #e7e9e8;
+        padding: 0 15px;
+        width: 1000px;
+    }
 }
