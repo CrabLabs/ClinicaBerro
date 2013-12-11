@@ -25,7 +25,9 @@ body{
                 height: 450px;
                 #logo{
                     height: 201px;
+                    left: calc(50% - 100px);
                     position: relative;
+                    top: 60px;
                     width: 230px;
                 }
             }
