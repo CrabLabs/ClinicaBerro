@@ -1,10 +1,20 @@
 footer{
 	position: relative;
 	.facebook{
+		background: url(../images/facebook_about.png) no-repeat;
+		height: 28px;
+		left: 30px;
+		padding-left: 35px;
 		position: relative;
-		top: -20px;
-		img{
-			
+		top: -60px;
+		span{
+			color: #4b2848;
+			display: block;
+			font-size: 14px;
+			line-height: 14px;
+			&.pink{
+				color: #ec008c;
+			}
 		}
 	}
 	.well{
@@ -17,7 +27,7 @@ footer{
 			color: white;
 			display: inline-block;
 			font-size: 16px;
-			padding: 40px 0 40px 40px;
+			padding: 30px;
 			position: relative;
 			vertical-align: top;
 			width: 40%;
@@ -31,7 +41,11 @@ footer{
 				width: 1px;
 			}
 			&:last-of-type{
+				text-align: center;
 				width: 20%;
+				.pink{
+					color: #ec008c;
+				}
 			}
 			span{
 				display: block;
