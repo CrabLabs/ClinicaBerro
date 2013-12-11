@@ -1,0 +1,38 @@
+footer{
+	.well{
+		background: #4d2e4f;
+		font-size: 0;
+		*{
+			box-sizing: border-box;
+		}
+		div{
+			color: white;
+			display: inline-block;
+			font-size: 16px;
+			padding: 40px 0 40px 40px;
+			position: relative;
+			vertical-align: top;
+			width: 40%;
+			&:after{
+				background: #4e414a;
+				content: "\a0";
+				height: 100%;
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 1px;
+			}
+			&:last-of-type{
+				width: 20%;
+			}
+			span{
+				display: block;
+				padding: 4px;
+			}
+			.city{
+				color: #ec008c;
+				font-size: 18px;
+			}
+		}
+	}
+}
