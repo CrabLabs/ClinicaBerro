@@ -7,6 +7,9 @@ footer{
 		padding-left: 35px;
 		position: relative;
 		top: -60px;
+		@media #{$mobile}{
+			display: none;
+		}
 		span{
 			color: #4b2848;
 			display: block;
@@ -31,6 +34,9 @@ footer{
 			position: relative;
 			vertical-align: top;
 			width: 40%;
+			@media #{$mobile}{
+				width: 100%;
+			}
 			&:after{
 				background: #4e414a;
 				content: "\a0";
@@ -43,6 +49,9 @@ footer{
 			&:last-of-type{
 				text-align: center;
 				width: 20%;
+				@media #{$mobile}{
+					width: 100%;
+				}
 				.pink{
 					color: #ec008c;
 				}
@@ -60,6 +69,9 @@ footer{
 	.sub{
 		padding: 20px 0;
 		position: relative;
+		@media #{$mobile}{
+			padding: 15px;
+		}
 		p{
 			color: #999;
 			display: inline;
@@ -71,6 +83,11 @@ footer{
 			&:last-of-type{
 				position: absolute;
 				right: 0;
+				@media #{$mobile}{
+					display: block;
+					margin: 5px 0;
+					position: relative;
+				}
 			}
 		}
 	}

@@ -11,9 +11,15 @@
         &.video{
             position: relative;
             width: 600px;
+            @media #{$mobile}{
+                width: 100%;
+            }
         }
         &.contact{
             width: 400px;
+            @media #{$mobile}{
+                width: 100%;
+            }
         }
 	}
 	h3{
@@ -30,19 +36,30 @@
         height: 300px;
         margin-top: 20px;
         width: 540px;
+        @media #{$mobile}{
+            height: auto;
+            width: 100%;
+        }
     }
     #play_button{
         background: url("../images/play.png");
         height: 55px;
         pointer-events: none;
         position: absolute;
-        left: 264px;
+        left: calc(50% - 36px);
         top: 161px;
         width: 72px;
         z-index: 99;
+        @media #{$mobile}{
+            top: 50%;
+            transform: scale(0.7);
+        }
     }
 	form{
 		padding-top: 20px;
+        @media #{$mobile}{
+            padding: 15px;
+        }
 		input, textarea, select, option{
 			color: #474747;
             background: #fafafa;
@@ -53,6 +70,9 @@
             margin: 4px 0;
 			padding: 10px;
             width: 365px;
+            @media #{$mobile}{
+                width: 100%;
+            }
             &:focus{
                 outline: none;
             }
@@ -70,6 +90,9 @@
             }
             &.small{
             	width: 175px;
+                @media #{$mobile}{
+                    width: 100%;
+                }
             }
 		}
 		select{
