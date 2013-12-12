@@ -55,7 +55,10 @@ body{
                     position: absolute;
                     right: 30px;
                     @media #{$mobile}{
-                        display: none;
+                        bottom: 0;
+                        .facebook{
+                            display: none;
+                        }
                     }
                     li{
                         height: 40px;
